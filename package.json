@@ -1,11 +1,15 @@
 {
-  "name": "bootsrap-4",
-  "version": "1.0.0",
-  "description": "\"Curso para aprender Bootstrap 4.0\"",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Fredy Orozco",
-  "license": "ISC"
+    "name": "bootsrap-4",
+    "version": "1.0.0",
+    "description": "\"Curso para aprender Bootstrap 4.0\"",
+    "main": "index.html",
+    "scripts": {
+        "dev": "lite-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Fredy Orozco",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    }
 }
