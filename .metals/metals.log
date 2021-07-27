@@ -2,3 +2,29 @@
 [0m2021.07.25 13:22:16 INFO  time: initialize in 1.61s[0m
 [0m2021.07.25 13:22:19 WARN  Build server is not auto-connectable.[0m
 [0m2021.07.25 13:22:19 WARN  no build tool detected in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+jul 25, 2021 7:43:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 25, 2021 7:43:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 25, 2021 7:43:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 25, 2021 7:43:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 25, 2021 7:43:17 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 25, 2021 7:43:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 25, 2021 7:46:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+jul 25, 2021 7:46:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFORMACIÓN: Unsupported notification method: $/setTrace
+[0m2021.07.26 02:42:20 INFO  shutting down Metals[0m
+[0m2021.07.26 08:28:25 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.26 08:28:27 INFO  time: initialize in 2.14s[0m
+[0m2021.07.26 08:28:30 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.26 08:28:30 WARN  no build tool detected in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.07.26 10:07:44 INFO  shutting down Metals[0m
+[0m2021.07.26 23:13:34 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4' for client Visual Studio Code 1.57.1.[0m
+[0m2021.07.26 23:13:37 INFO  time: initialize in 2.82s[0m
+[0m2021.07.26 23:13:39 WARN  Build server is not auto-connectable.[0m
+[0m2021.07.26 23:13:39 WARN  no build tool detected in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
