@@ -21,16 +21,16 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="#">Precios</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Terminos y condiciones</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contato.html">Contatenos</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contatenos</a>
                 </li>
             </ul>
         </div>
@@ -44,18 +44,52 @@
     <div class="container">
         <nav class="breadcrumb">
             <a class="breadcrumb-item" href="index.html">Home</a>
-            <span class="breadcrumb-item active">Precios</span>
+            <span class="breadcrumb-item active">Contatenos</span>
         </nav>
-        <div class="d-flex">
-            <div class="col">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque asperiores repudiandae iusto. Rem, earum? Pariatur quis nisi quae harum deleniti enim officiis officia quaerat voluptatum, deserunt saepe ex dolorum doloribus. Laborum, consectetur
-                    exercitationem quo rem aliquam reprehenderit itaque, tenetur deleniti non dolorum voluptatibus. Numquam molestiae, nesciunt dignissimos perferendis similique magni veniam tempore hic rem perspiciatis iusto a nihil dolores non! Perferendis
-                    provident, corporis neque cupiditate delectus nihil expedita maiores, esse dolorum id sunt sint fugiat ad quae saepe. Aperiam omnis cum excepturi nostrum cupiditate. Vel recusandae itaque officiis tempore repellat! Magni natus ab asperiores
-                    quisquam enim assumenda eveniet sit, animi unde labore eum cum perspiciatis quia tenetur dolore fugiat, voluptate molestiae itaque? Consequatur veritatis necessitatibus reprehenderit dolore tenetur sapiente modi. Qui nemo, minima rem
-                    vero ad, necessitatibus aut hic, dolores harum non quibusdam totam iste quae voluptatem voluptatibus obcaecati corporis in ipsam nesciunt! Reprehenderit mollitia quas suscipit illo odio ullam? Minus, earum deserunt. Esse, nemo facilis.
-                    Sunt amet vel aspernatur necessitatibus laboriosam, inventore blanditiis nulla, recusandae iusto dicta enim quos magni reiciendis earum odit facere libero esse asperiores cum ratione?</p>
+        <h1 align="center">Dejame un comentario</h1>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="Nombre">Nombre</label>
+                    <input id="Nombre" class="form-control" type="text" name="Nombre" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="apellidos">Apellidos</label>
+                    <input id="apellidos" class="form-control" type="text" name="apellidos" placeholder="Ingrese sus apellidos">
+                </div>
             </div>
-        </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" class="form-control" type="email" name="email" placeholder="Ingrese email">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="Direccion">Direccion</label>
+                    <input id="Direccion" class="form-control" type="text" name="Direccion" placeholder="Ingrese el Domicilio">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="Departamento">Departamento</label>
+                    <select id="Departamento" class="form-control">
+                        <option value="Antioquia">Antioquia</option>
+                        <option value="Guajira">La Guajira</option>
+                        <option value="Nariño">Nariño</option>
+                        <option value="Bogotá">Bogotá DC</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Comentario">Comentario</label>
+                <textarea id="comentario" class="form-control" rows="12"></textarea>
+            </div>
+            <div class="form-group">
+                <div class="custom-control custom-checkboxk">
+                    <input id="Contactame" class="custom-control-input" type="checkbox" name="Contactame">
+                    <label for="Contactame" class="custom-control-label">Quiero que me Contacta</label>
+                </div>
+            </div>
+            <button type="sumbit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
     </div>
 
     <footer>
