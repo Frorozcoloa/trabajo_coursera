@@ -5,13 +5,13 @@
 }
 
 .card-hotel {
-    padding: 2px 5px 2px 5px;
-    flex: 1 150px;
+    flex: 1 200px;
     margin-top: 10px;
 }
 
 .btn-reservar {
     width: 100%;
+    border-radius: 0px;
 }
 
 footer {
