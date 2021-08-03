@@ -1,26 +1,33 @@
-.jumbotron {
-    background-color: yellow;
-    color: black;
-    margin-top: 56px;
-}
-
-.card-hotel {
-    flex: 1 200px;
-    margin-top: 10px;
-}
-
-.btn-reservar {
-    width: 100%;
-    border-radius: 0px;
-}
-
-footer {
-    padding: 10px 10px 0px 10px;
-    background-color: yellow;
-    margin-bottom: 0px;
-    margin-top: 10px;
-}
-
-.footer-address-icon {
-    padding-right: 10px;
-}
+    .jumbotron {
+        background-color: yellow;
+        color: black;
+        margin-top: 56px;
+    }
+    
+    .card-hotel {
+        flex: 1 200px;
+        margin-top: 10px;
+    }
+    
+    .btn-reservar {
+        width: 100%;
+        border-radius: 0px;
+    }
+    
+    footer {
+        padding: 10px 10px 0px 10px;
+        background-color: yellow;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    
+    .footer-address-icon {
+        padding-right: 10px;
+    }
+    
+    .caption {
+        width: 100%;
+        bottom: 50%;
+        position: absolute;
+        color: rgb(12, 12, 12);
+    }
