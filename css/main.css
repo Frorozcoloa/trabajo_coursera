@@ -31,3 +31,7 @@
         position: absolute;
         color: rgb(12, 12, 12);
     }
+    
+    .card:hover {
+        border: 2px blue solid;
+    }

@@ -46,93 +46,113 @@
             <a class="breadcrumb-item" href="index.html">Home</a>
             <span class="breadcrumb-item active">Precios</span>
         </nav>
-        <div class="table-responsive">
-            <table class="table table-striped">
-                <thead class="thead-dark">
-                    <th>Calidad</th>
-                    <th>Cartagena</th>
-                    <th>Santa marta</th>
-                    <th>Tolú</th>
-                    <th>San Andres</th>
-                    <th>Calidad</th>
-                    <th>Cartagena</th>
-                    <th>Santa marta</th>
-                    <th>Tolú</th>
-                    <th>San Andres</th>
-                </thead>
-                <tbody>
-                    <th scope="row"><span class="oi oi-star"></span></th>
-                    <td>$500</td>
-                    <td>$600</td>
-                    <td>$700</td>
-                    <td>$800</td>
-                    <td>$500</td>
-                    <td>$600</td>
-                    <td>$700</td>
-                    <td>$800</td>
-                    <td>$800</td>
-                </tbody>
-                <tbody>
-                    <th scope="row"><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
-                    <td>$800</td>
-                    <td>$600</td>
-                    <td>$600</td>
-                    <td>$700</td>
-                    <td>$800</td>
-                    <td>$600</td>
-                    <td>$600</td>
-                    <td>$700</td>
-                    <td>$800</td>
-                </tbody>
-                <tbody>
-                    <th scope="row"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
-                    <td>$800</td>
-                    <td>$600</td>
-                    <td>$600</td>
-                    <td>$700</td>
-                    <td>$800</td>
-                    <td>$600</td>
-                    <td>$600</td>
-                    <td>$700</td>
-                    <td>$800</td>
-                </tbody>
-                <tbody>
-                    <th scope="row"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
-                    <td>$600</td>
-                    <td>$600</td>
-                    <td>$800</td>
-                    <td>$700</td>
-                    <td>$800</td>
-                    <td>$600</td>
-                    <td>$600</td>
-                    <td>$700</td>
-                    <td>$800</td>
-                </tbody>
-                <tbody>
-                    <th scope="row"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
-                    <td>$600</td>
-                    <td>$600</td>
-                    <td>$700</td>
-                    <td>$800</td>
-                    <td>$800</td>
-                    <td>$600</td>
-                    <td>$600</td>
-                    <td>$700</td>
-                    <td>$800</td>
-                </tbody>
-            </table>
-        </div>
-        <div class="d-flex justify-content-center">
-            <div class="card" style="width:18rem;">
-                <div class="card-header" style="background-color: blue; color:white">
-                    <h5><span class="oi oi-credit-card footer-address-icon"></span>Tarjetas aceptadas</h5>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-precio-tab" data-toggle="pill" href="#pills-precio" role="tab" aria-controls="pills-precio" aria-selected="true">Precios</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-tarjetas-tab" data-toggle="pill" href="#pills-tarjetas" role="tab" aria-controls="pills-tarjetas" aria-selected="false">Tarjetas</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-comentarios-tab" data-toggle="pill" href="#pills-comentarios" role="tab" aria-controls="pills-comentarios" aria-selected="false">Comentarios</a>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-precio" role="tabpanel" aria-labelledby="pills-precio-tab">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead class="thead-dark">
+                            <th>Calidad</th>
+                            <th>Cartagena</th>
+                            <th>Santa marta</th>
+                            <th>Tolú</th>
+                            <th>San Andres</th>
+                            <th>Calidad</th>
+                            <th>Cartagena</th>
+                            <th>Santa marta</th>
+                            <th>Tolú</th>
+                            <th>San Andres</th>
+                        </thead>
+                        <tbody>
+                            <th scope="row"><span class="oi oi-star"></span></th>
+                            <td>$500</td>
+                            <td>$600</td>
+                            <td>$700</td>
+                            <td>$800</td>
+                            <td>$500</td>
+                            <td>$600</td>
+                            <td>$700</td>
+                            <td>$800</td>
+                            <td>$800</td>
+                        </tbody>
+                        <tbody>
+                            <th scope="row"><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
+                            <td>$800</td>
+                            <td>$600</td>
+                            <td>$600</td>
+                            <td>$700</td>
+                            <td>$800</td>
+                            <td>$600</td>
+                            <td>$600</td>
+                            <td>$700</td>
+                            <td>$800</td>
+                        </tbody>
+                        <tbody>
+                            <th scope="row"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
+                            <td>$800</td>
+                            <td>$600</td>
+                            <td>$600</td>
+                            <td>$700</td>
+                            <td>$800</td>
+                            <td>$600</td>
+                            <td>$600</td>
+                            <td>$700</td>
+                            <td>$800</td>
+                        </tbody>
+                        <tbody>
+                            <th scope="row"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
+                            <td>$600</td>
+                            <td>$600</td>
+                            <td>$800</td>
+                            <td>$700</td>
+                            <td>$800</td>
+                            <td>$600</td>
+                            <td>$600</td>
+                            <td>$700</td>
+                            <td>$800</td>
+                        </tbody>
+                        <tbody>
+                            <th scope="row"><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span><span class="oi oi-star"></span></th>
+                            <td>$600</td>
+                            <td>$600</td>
+                            <td>$700</td>
+                            <td>$800</td>
+                            <td>$800</td>
+                            <td>$600</td>
+                            <td>$600</td>
+                            <td>$700</td>
+                            <td>$800</td>
+                        </tbody>
+                    </table>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Lorem, ipsum dolor.</li>
-                    <li class="list-group-item">Lorem, ipsum dolor.</li>
-                    <li class="list-group-item">Lorem, ipsum dolor.</li>
-                    <li class="list-group-item">Lorem, ipsum dolor.</li>
-                </ul>
+            </div>
+            <div class="tab-pane fade" id="pills-tarjetas" role="tabpanel" aria-labelledby="pills-tarjetas-tab">
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width:18rem;">
+                        <div class="card-header" style="background-color: blue; color:white">
+                            <h5><span class="oi oi-credit-card footer-address-icon"></span>Tarjetas aceptadas</h5>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                            <li class="list-group-item">Lorem, ipsum dolor.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-comentarios" role="tabpanel" aria-labelledby="pills-comentarios-tab">
+                <h2>Comentarios</h2>
             </div>
         </div>
     </div>
