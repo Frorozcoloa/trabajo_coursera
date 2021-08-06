@@ -45,144 +45,164 @@
         <nav class="breadcrumb">
             <span class="breadcrumb-item active">Home</span>
         </nav>
-        <div class="col-sm-12 thumbnail text-center">
-            <img src="images/parte_arriba.jpg" alt="image responsive" class="img-fluid">
-            <div class="caption">
-                <h4 class="font-italic text-center">Viaja al Himalaya al <span class="badge badge-pill badge-primary">75%</span></h4>
+        <div class="row">
+            <div class="col-sm-12 thumbnail text-center">
+                <img src="images/parte_arriba.jpg" alt="image responsive" class="img-fluid">
+                <div class="caption">
+                    <h4 class="font-italic text-center">Viaja al Himalaya al <span class="badge badge-pill badge-primary">75%</span></h4>
+                </div>
             </div>
-        </div>
-        <div class="col-12">
-            <div class="alert alert-primary" role="alert">
-                viaja al Himalaya <a href="contato.html" class="alert-link">Deja tus datos, te contactamos</a>. Te esperamos
+            <div class="col-12">
+                <div class="alert alert-primary" role="alert">
+                    viaja al Himalaya <a href="contato.html" class="alert-link">Deja tus datos, te contactamos</a>. Te esperamos
+                </div>
             </div>
         </div>
         <hr>
-        <div class="d-flex flex-wrap">
+        <div class="row">
             <div class="col-sm-4">
-                <h2>¿Como Funciona?</h2>
-                <p>Busca tu Hotel de acuerdo a tu preferencia</p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#funcional" aria-expanded="false" aria-controls="funcional">¿Como Funciona?</button>
             </div>
             <div class="col-sm-4">
-                <h2>¿Dónde puedo reservar?</h2>
-                <p>Elija la ciudad que te interese y luego ingresa tus datos.</p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#reservar" aria-expanded="false" aria-controls="reservar">¿Dónde puedo reservar?</button>
             </div>
             <div class="col-sm-4">
-                <h2>¿Comó Pago?</h2>
-                <p>Utiliza tu tarjeta favorita</p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#pago" aria-expanded="false" aria-controls="pago">¿Comó Pago?</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4 collapse multi-collapse collapsing" id="funcional">
+                <p>
+                    <h2>¿Como Funciona?</h2>
+                    <p>Busca tu Hotel de acuerdo a tu preferencia</p>
+                </p>
+            </div>
+            <div class="col-sm-4 collapse multi-collapse collapsing" id="reservar">
+                <p>
+                    <h2>¿Dónde reservar?</h2>
+                    <p>Elija la ciudad que te interese y luego ingresa tus datos.</p>
+                </p>
+            </div>
+            <div class="col-sm-4 collapse multi-collapse collapsing" id="pago">
+                <p>
+                    <h2>¿Comó Pago?</h2>
+                    <p>Utiliza tu tarjeta favorita</p>
+                </p>
             </div>
         </div>
         <!--Fin de la primera fila-->
-        <div class="d-flex flex-wrap flex-row-reverse">
-            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
-                <div class="card-header">
-                    <span class="oi oi-star"></span><span class="oi oi-star"></span>
+        <div class="d-flex flex-wrap flex-row-reverse ">
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2 ">
+                <div class="card-header ">
+                    <span class="oi oi-star "></span><span class="oi oi-star "></span>
                 </div>
-                <img class="card-img-top" src="https://picsum.photos/200">
-                <div class="card-body">
-                    <h3 class="card-title">Hotel Buenos Aires 1</h3>
-                    <h6 class="card-subtitle text-muted">Colombia</h6>
-                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quos veniam doloribus quas, illum dignissimos.</p>
+                <img class="card-img-top " src="https://picsum.photos/200 ">
+                <div class="card-body ">
+                    <h3 class="card-title ">Hotel Buenos Aires 1</h3>
+                    <h6 class="card-subtitle text-muted ">Colombia</h6>
+                    <p class="card-text ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quos veniam doloribus quas, illum dignissimos.</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-reservar"><span class="oi oi-plus" style="color:rgb(28, 72, 194)"></span> Revervar</button>
+                <button type="button " class="btn btn-primary btn-reservar "><span class="oi oi-plus " style="color:rgb(28, 72, 194) "></span> Revervar</button>
             </div>
-            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
-                <div class="card-header">
-                    <span class="oi oi-star"></span><span class="oi oi-star"></span>
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2 ">
+                <div class="card-header ">
+                    <span class="oi oi-star "></span><span class="oi oi-star "></span>
                 </div>
-                <img class="card-img-top" src="https://picsum.photos/200">
-                <div class="card-body">
-                    <h3 class="card-title">Hotel Buenos Aires 2</h3>
-                    <h6 class="card-subtitle text-muted">España</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores temporibus, architecto magnam iure nostrum illum deserunt tenetur fuga.</p>
+                <img class="card-img-top " src="https://picsum.photos/200 ">
+                <div class="card-body ">
+                    <h3 class="card-title ">Hotel Buenos Aires 2</h3>
+                    <h6 class="card-subtitle text-muted ">España</h6>
+                    <p class="card-text ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores temporibus, architecto magnam iure nostrum illum deserunt tenetur fuga.</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-reservar"><span class="oi oi-plus" style="color:rgb(28, 72, 194)"></span> Revervar</button>
+                <button type="button " class="btn btn-primary btn-reservar "><span class="oi oi-plus " style="color:rgb(28, 72, 194) "></span> Revervar</button>
             </div>
-            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
-                <div class="card-header">
-                    <span class="oi oi-star"></span><span class="oi oi-star"></span>
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2 ">
+                <div class="card-header ">
+                    <span class="oi oi-star "></span><span class="oi oi-star "></span>
                 </div>
-                <img class="card-img-top" src="https://picsum.photos/200">
-                <div class="card-body">
-                    <h3 class="card-title">Hotel Buenos Aires 3</h3>
-                    <h6 class="card-subtitle text-muted">España</h6>
-                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolor fugiat ipsum, non placeat aperiam quis magni in voluptas ea?</p>
+                <img class="card-img-top " src="https://picsum.photos/200 ">
+                <div class="card-body ">
+                    <h3 class="card-title ">Hotel Buenos Aires 3</h3>
+                    <h6 class="card-subtitle text-muted ">España</h6>
+                    <p class="card-text ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum dolor fugiat ipsum, non placeat aperiam quis magni in voluptas ea?</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-reservar"><span class="oi oi-plus" style="color:rgb(28, 72, 194)"></span> Revervar</button>
+                <button type="button " class="btn btn-primary btn-reservar "><span class="oi oi-plus " style="color:rgb(28, 72, 194) "></span> Revervar</button>
             </div>
-            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
-                <div class="card-header">
-                    <span class="oi oi-star"></span><span class="oi oi-star"></span>
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2 ">
+                <div class="card-header ">
+                    <span class="oi oi-star "></span><span class="oi oi-star "></span>
                 </div>
-                <img class="card-img-top" src="https://picsum.photos/200">
-                <div class="card-body">
-                    <h3 class="card-title">Hotel Buenos Aires 4 <span class="badge badge-warning">50%</span></h3>
-                    <h6 class="card-subtitle text-muted">España</h6>
-                    <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, ut consequuntur, molestiae animi perferendis, voluptatum exercitationem quo et eius ullam delectus.</p>
+                <img class="card-img-top " src="https://picsum.photos/200 ">
+                <div class="card-body ">
+                    <h3 class="card-title ">Hotel Buenos Aires 4 <span class="badge badge-warning ">50%</span></h3>
+                    <h6 class="card-subtitle text-muted ">España</h6>
+                    <p class="card-text ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, ut consequuntur, molestiae animi perferendis, voluptatum exercitationem quo et eius ullam delectus.</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-reservar"><span class="oi oi-plus" style="color:rgb(28, 72, 194)"></span> Revervar</button>
+                <button type="button " class="btn btn-primary btn-reservar "><span class="oi oi-plus " style="color:rgb(28, 72, 194) "></span> Revervar</button>
             </div>
-            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
-                <div class="card-header">
-                    <span class="oi oi-star"></span><span class="oi oi-star"></span>
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2 ">
+                <div class="card-header ">
+                    <span class="oi oi-star "></span><span class="oi oi-star "></span>
                 </div>
-                <img class="card-img-top" src="https://picsum.photos/200">
-                <div class="card-body">
-                    <h3 class="card-title">Hotel Buenos Aires 5</h3>
-                    <h6 class="card-subtitle text-muted">España</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid officia non obcaecati commodi et recusandae ex sit dolorum tempora debitis omnis, architecto voluptatem porro dolor.</p>
+                <img class="card-img-top " src="https://picsum.photos/200 ">
+                <div class="card-body ">
+                    <h3 class="card-title ">Hotel Buenos Aires 5</h3>
+                    <h6 class="card-subtitle text-muted ">España</h6>
+                    <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid officia non obcaecati commodi et recusandae ex sit dolorum tempora debitis omnis, architecto voluptatem porro dolor.</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-reservar"><span class="oi oi-plus" style="color:rgb(28, 72, 194)"></span> Revervar</button>
+                <button type="button " class="btn btn-primary btn-reservar "><span class="oi oi-plus " style="color:rgb(28, 72, 194) "></span> Revervar</button>
             </div>
-            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
-                <div class="card-header">
-                    <span class="oi oi-star"></span><span class="oi oi-star"></span>
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2 ">
+                <div class="card-header ">
+                    <span class="oi oi-star "></span><span class="oi oi-star "></span>
                 </div>
-                <img class="card-img-top" src="https://picsum.photos/200">
-                <div class="card-body">
-                    <h3 class="card-title">Hotel Buenos Aires 6</h3>
-                    <h6 class="card-subtitle text-muted">España</h6>
-                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, natus.</p>
+                <img class="card-img-top " src="https://picsum.photos/200 ">
+                <div class="card-body ">
+                    <h3 class="card-title ">Hotel Buenos Aires 6</h3>
+                    <h6 class="card-subtitle text-muted ">España</h6>
+                    <p class="card-text ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, natus.</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-reservar"><span class="oi oi-plus" style="color:rgb(28, 72, 194)"></span> Revervar</button>
+                <button type="button " class="btn btn-primary btn-reservar "><span class="oi oi-plus " style="color:rgb(28, 72, 194) "></span> Revervar</button>
             </div>
-            <div class="card card-hotel d-flex flex-column justify-content-between ml-2">
-                <div class="card-header">
-                    <span class="oi oi-star"></span><span class="oi oi-star"></span>
+            <div class="card card-hotel d-flex flex-column justify-content-between ml-2 ">
+                <div class="card-header ">
+                    <span class="oi oi-star "></span><span class="oi oi-star "></span>
                 </div>
-                <img class="card-img-top" src="https://picsum.photos/200">
-                <div class="card-body">
-                    <h3 class="card-title">Hotel Buenos Aires 7 <span class="badge badge-primary">New</span></h3>
-                    <h6 class="card-subtitle text-muted">España</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium culpa quaerat saepe dolorum, veritatis fugit. Consequuntur, quas ut?</p>
+                <img class="card-img-top " src="https://picsum.photos/200 ">
+                <div class="card-body ">
+                    <h3 class="card-title ">Hotel Buenos Aires 7 <span class="badge badge-primary ">New</span></h3>
+                    <h6 class="card-subtitle text-muted ">España</h6>
+                    <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium culpa quaerat saepe dolorum, veritatis fugit. Consequuntur, quas ut?</p>
                 </div>
-                <button type="button" class="btn btn-primary btn-reservar"><span class="oi oi-plus" style="color:rgb(28, 72, 194)"></span> Revervar</button>
+                <button type="button " class="btn btn-primary btn-reservar "><span class="oi oi-plus " style="color:rgb(28, 72, 194) "></span> Revervar</button>
             </div>
         </div>
     </div>
 
     <footer>
-        <div class="row">
-            <div class="col-sm-4 d-flex flex-column">
-                <a href="http://www.facebook.com/">Facebook</a>
-                <a href="http://www.instagram.com/">Instagram</a>
-                <a href="http://www.twitter.com/">Twitter</a>
-                <a href="http://www.google.com/">Google</a>
+        <div class="row ">
+            <div class="col-sm-4 d-flex flex-column ">
+                <a href="http://www.facebook.com/ ">Facebook</a>
+                <a href="http://www.instagram.com/ ">Instagram</a>
+                <a href="http://www.twitter.com/ ">Twitter</a>
+                <a href="http://www.google.com/ ">Google</a>
             </div>
-            <div class="col-sm-4 d-flex flex-column">
+            <div class="col-sm-4 d-flex flex-column ">
                 <address>
                     <h2>Oficina central</h2>
-                    <p><span class="oi oi-home footer-address-icon"></span>Medellin colombia</p>
-                    <p><span class="oi oi-phone footer-address-icon"></span>+57 312456098</p>
-                    <p><span class="oi oi-inbox footer-address-icon"></span>Freoro@jajsdmso</p>
+                    <p><span class="oi oi-home footer-address-icon "></span>Medellin colombia</p>
+                    <p><span class="oi oi-phone footer-address-icon "></span>+57 312456098</p>
+                    <p><span class="oi oi-inbox footer-address-icon "></span>Freoro@jajsdmso</p>
                 </address>
             </div>
-            <div class="col-sm-4 d-flex flex-column align-items-end">
-                <a href="http://www.facebook.com/">Nosotros</a>
-                <a href="http://www.instagram.com/">Precios</a>
-                <a href="http://www.twitter.com/">Terminos y condiciones</a>
-                <a href="http://www.twitter.com/">Contacto</a>
+            <div class="col-sm-4 d-flex flex-column align-items-end ">
+                <a href="http://www.facebook.com/ ">Nosotros</a>
+                <a href="http://www.instagram.com/ ">Precios</a>
+                <a href="http://www.twitter.com/ ">Terminos y condiciones</a>
+                <a href="http://www.twitter.com/ ">Contacto</a>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 ">
 
             </div>
         </div>
@@ -192,9 +212,9 @@
 
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js "></script>
+    <script src="node_modules/popper.js/dist/popper.min.js "></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
 </body>
 
 </html>
