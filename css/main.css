@@ -35,3 +35,7 @@
     .card:hover {
         border: 2px #CCE5FF solid;
     }
+    
+    .btn-reservar {
+        color: rgb(28, 72, 194);
+    }
