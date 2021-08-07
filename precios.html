@@ -137,17 +137,48 @@
                 </div>
             </div>
             <div class="tab-pane fade" id="pills-tarjetas" role="tabpanel" aria-labelledby="pills-tarjetas-tab">
-                <div class="d-flex justify-content-center">
-                    <div class="card" style="width:18rem;">
-                        <div class="card-header" style="background-color: blue; color:white">
-                            <h5><span class="oi oi-credit-card footer-address-icon"></span>Tarjetas aceptadas</h5>
+                <div id="accordianId" role="tablist" aria-multiselectable="true">
+                    <div class="card">
+                        <div class="card-header" role="tab" id="section1HeaderId">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true" aria-controls="section1ContentId">
+                                    Tarjeta básica
+                                </a>
+                            </h5>
                         </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Lorem, ipsum dolor.</li>
-                            <li class="list-group-item">Lorem, ipsum dolor.</li>
-                            <li class="list-group-item">Lorem, ipsum dolor.</li>
-                            <li class="list-group-item">Lorem, ipsum dolor.</li>
-                        </ul>
+                        <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
+                            <div class="card-body">
+                                Paga a 6 cuotas con tu tarjeta básica. Recuerda siempre reclar tu llavero de recuerdo.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="section2HeaderId">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" aria-expanded="true" aria-controls="section2ContentId">
+                                    Targeta Master card
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptatibus non delectus dolorem, fugiat voluptates.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" role="tab" id="section3HeaderId">
+                            <h5 class="mb-0">
+                                <a data-toggle="collapse" data-parent="#accordianId" href="#section3ContentId" aria-expanded="true" aria-controls="section2ContentId">
+                                    Targeta Master Golden
+                                </a>
+                            </h5>
+                        </div>
+                        <div id="section3ContentId" class="collapse in" role="tabpanel" aria-labelledby="section3HeaderId">
+                            <div class="card-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, eligendi porro sunt temporibus recusandae ipsam laudantium at omnis similique dolorum?
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
