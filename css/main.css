@@ -18,7 +18,7 @@
         padding: 10px 10px 0px 10px;
         background-color: yellow;
         margin-bottom: 0px;
-        margin-top: 10px;
+        margin-top: 100px;
     }
     
     .footer-address-icon {
@@ -38,4 +38,8 @@
     
     .btn-reservar {
         color: rgb(28, 72, 194);
+    }
+    
+    .row-header {
+        margin: 50px 0px 50px;
     }
