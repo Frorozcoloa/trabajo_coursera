@@ -4,16 +4,29 @@
     "description": "\"Curso para aprender Bootstrap 4.0\"",
     "main": "index.html",
     "scripts": {
+        "start": "concurrently \"npm run scss\" \"npm run dev\"",
         "dev": "lite-server",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scss": "node-sass -o css/ css/",
+        "watch:scss": "node-sass -o css/ css/ -w",
+        "clean": "rimraf dist",
+        "imagemin": "imagemin images/* --out-dir dist/images",
+        "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin about.html -d dist --htmlmin -o dist/about.html && usemin contato.html -d dist --htmlmin -o dist/contato.html && usemin precios.html -d dist --htmlmin -o dist/precios.html",
+        "build": "npm run clean && npm run scss && npm run imagemin && npm run usemin"
+
     },
     "author": "Fredy Orozco",
     "license": "ISC",
     "devDependencies": {
-        "lite-server": "^2.6.1"
+        "copyfiles": "^2.4.1",
+        "lite-server": "^2.6.1",
+        "node-sass": "^6.0.1",
+        "onchange": "^7.1.0",
+        "rimraf": "^3.0.2"
     },
     "dependencies": {
         "bootstrap": "^4.6.0",
+        "concurrently": "^6.2.1",
         "jquery": "^3.6.0",
         "open-iconic": "^1.1.1",
         "popper.js": "^1.16.1"

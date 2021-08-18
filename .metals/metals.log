@@ -43,3 +43,18 @@ INFORMACIÓN: Unsupported notification method: $/setTrace
 [0m2021.08.07 15:32:23 INFO  time: initialize in 1.39s[0m
 [0m2021.08.07 15:32:26 WARN  Build server is not auto-connectable.[0m
 [0m2021.08.07 15:32:26 WARN  no build tool detected in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.08 00:03:31 INFO  shutting down Metals[0m
+[0m2021.08.15 09:18:01 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4' for client Visual Studio Code 1.57.1.[0m
+[0m2021.08.15 09:18:03 INFO  time: initialize in 1.92s[0m
+[0m2021.08.15 09:18:09 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.15 09:18:09 WARN  no build tool detected in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.15 15:39:49 INFO  shutting down Metals[0m
+[0m2021.08.16 09:52:02 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4' for client Visual Studio Code 1.57.1.[0m
+[0m2021.08.16 09:52:03 INFO  time: initialize in 1.39s[0m
+[0m2021.08.16 09:52:09 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.16 09:52:09 WARN  no build tool detected in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.08.16 23:00:56 INFO  shutting down Metals[0m
+[0m2021.08.17 22:34:16 INFO  Started: Metals version 0.10.5 in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4' for client Visual Studio Code 1.57.1.[0m
+[0m2021.08.17 22:34:17 INFO  time: initialize in 1.19s[0m
+[0m2021.08.17 22:34:18 WARN  Build server is not auto-connectable.[0m
+[0m2021.08.17 22:34:18 WARN  no build tool detected in workspace 'C:\Users\fredy\OneDrive\Escritorio\Fredy\coursera\Full Stack\Bootsrap 4'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
